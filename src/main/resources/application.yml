@@ -1,0 +1,8 @@
+spring.jpa.hibernate.ddl-auto: create-drop
+spring:
+  datasource:
+    driverClassName: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    url: jdbc:log4jdbc:h2:file:C:/tmp/testh2db
+    username: sa
+    password: 
+  
